@@ -7,10 +7,19 @@
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "pretty": "npx prettier . --write"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.9",
+    "@fullcalendar/daygrid": "^6.1.9",
+    "@fullcalendar/interaction": "^6.1.9",
+    "@fullcalendar/vue3": "^6.1.9",
+    "@quasar/extras": "^1.0.0",
+    "@quasar/quasar-ui-qcalendar": "^4.0.0-beta.15",
     "core-js": "^3.8.3",
+    "firebase": "^10.4.0",
+    "quasar": "^2.0.0",
     "register-service-worker": "^1.7.2",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3",
@@ -34,7 +43,8 @@
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
     "jest": "^27.0.5",
-    "sass": "^1.32.7",
-    "sass-loader": "^12.0.0"
+    "sass": "1.32.12",
+    "sass-loader": "^12.0.0",
+    "vue-cli-plugin-quasar": "~5.0.2"
   }
 }
